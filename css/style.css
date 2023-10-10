@@ -1,14 +1,33 @@
 /*stili generali*/
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    margin: 0;
+
 }
 
 :root{
-    font-family:'Roboto', Verdana Tahoma, sans-serif
+    font-family:'Roboto', Verdana Tahoma, sans-serif;
+    font-size: 16px;
 }
 
 body{
     background-color: rgb(220, 220, 220);
+}
+
+/*stile logo e titolo*/
+#zona-superiore{
+    background-color: white;
+    padding: 1%;
+
+}
+
+#logo{
+    width: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+#Font-titolo{
+    font-size: 50px;
+    font-weight: bold;
 }
