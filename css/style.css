@@ -162,3 +162,35 @@ hr{
     color: white;
     margin-top: 2%;
 }
+
+.bottone-violetto{
+    display: inline-block;
+    font-size: 12px;
+    background-color: violet;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 12px;
+    color: white;
+    margin-top: 2%;
+}
+
+.bottone-verdolino{
+    display: inline-block;
+    font-size: 12px;
+    background-color: greenyellow;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 12px;
+    color: white;
+    margin-top: 2%;
+}
+
+.spazio-vuoto{
+    width: 0px;
+    padding-top: 3%;
+    padding-top: 35px;
+}
