@@ -86,19 +86,79 @@ hr{
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
+    margin-left: 5%;
+}
+
+.cross::after{
+    content: "\2717";
+    font-size: 16px;
+    color: red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 5%;
 }
 
 .font-sezioni{
+    display: inline-block;
     font-size: 16px;
     color: rgb(43, 43, 43);
+    margin-top: 2%;
 }
 
 .bottone-blu{
+    display: inline-block;
     font-size: 12px;
     background-color: rgb(94, 152, 175);
-    width: 50px;
+    width: 70px;
+    height: 30px;
     text-align: center;
-    padding: 7px;
+    padding: 1%;
     border-radius: 12px;
     color: white;
+    margin-top: 2%;
+
+}
+
+.bottone-viola{
+    display: inline-block;
+    font-size: 12px;
+    background-color: blueviolet;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 12px;
+    color: white;
+    margin-top: 2%;
+}
+
+.bottone-verde{
+    display: inline-block;
+    font-size: 12px;
+    background-color: rgb(0, 128, 79);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 12px;
+    color: white;
+    margin-top: 2%;
+}
+
+.bottone-arancione{
+    display: inline-block;
+    font-size: 12px;
+    background-color: orange;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 12px;
+    color: white;
+    margin-top: 2%;
 }
