@@ -1,36 +1,36 @@
 /*stili generali*/
 *{
     box-sizing: border-box;
-    margin: 0;
-
 }
 
 :root{
     font-family:'Roboto', Verdana Tahoma, sans-serif;
-    font-size: 25px;
 }
 
 body{
     background-color: rgb(220, 220, 220);
+    margin: 0;
 }
 
 /*stile logo e titolo*/
 #zona-superiore{
     background-color: white;
-    padding: 1%;
-    margin-bottom: 2%;
+    display: inline-block;
+    width: 100%;
+    padding: 0.7%;
+    margin-bottom: 3%;
 
 }
 
 #logo{
-    width: 80px;
-    line-height: 80px;
+    width: 60px;
     vertical-align: middle;
 }
 
 #Font-titolo{
     font-size: 50px;
     font-weight: bold;
+    vertical-align: middle;
 }
 
 /*stili e bottoni di main*/
