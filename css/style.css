@@ -33,7 +33,17 @@ body{
     vertical-align: middle;
 }
 
-/*stili e bottoni di main*/
+/*riquadro centrale*/
+#grosso-riquadro-centrale-bianco{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 1% 0% 1% 3%;
+    border-top: 1px solid rgb(220, 220, 220);
+    border-radius: 0 0 5px 5px;
+}
+
+/*stili e colori tag di main*/
 
 #riquadro-bianco-navigazione{
     background-color: white;
@@ -51,7 +61,7 @@ body{
     width: 90px;
     height: 30px;
     border-radius: 7px;
-    background-color: rgb(94, 152, 175);
+    background-color: rgb(32, 100, 178);
     vertical-align: middle;
     line-height: 30px;
     text-align: center;
@@ -70,23 +80,9 @@ body{
     color: grey;
 }
 
-/*riquadro centrale*/
-#grosso-riquadro-centrale-bianco{
-    background-color: white;
-    width: 60%;
-    margin: auto;
-    padding-left: 3%;
-    padding-top: 1%;
-    padding-bottom: 2%;
-    border-top: 1px solid rgb(220, 220, 220);
-    border-radius: 0 0 5px 5px;
-}
-
-/* sezioni*/
 .font-sezioni-titoli{
-    padding-top: 0.7%;
+    padding: 0.7% 0% 1% 0%;
     color: rgb(61, 60, 60);
-    padding-bottom: 1%;
 }
 
 .checkmark{
@@ -116,9 +112,7 @@ body{
 .font-sezioni{
     font-size: 20px;
     color: rgb(43, 43, 43);
-    padding-left: 1%;
-    padding-right: 0.5%;
-    padding-bottom: 2%;
+    padding: 0% 0.5% 2% 1%;
 }
 
 .tag-blu{
@@ -173,34 +167,28 @@ body{
     margin-bottom: 2%;
 }
 
-.bottone-violetto{
+.tag-rosa{
+    font-size: 14px;
     display: inline-block;
-    font-size: 12px;
-    background-color: violet;
-    width: 70px;
+    width: 90px;
     height: 30px;
+    border-radius: 18px;
+    background-color: palevioletred;
+    line-height: 30px;
     text-align: center;
-    padding: 1%;
-    border-radius: 12px;
     color: white;
-    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.bottone-verdolino{
+.tag-verde-muffa{
+    font-size: 14px;
     display: inline-block;
-    font-size: 12px;
-    background-color: greenyellow;
-    width: 70px;
+    width: 90px;
     height: 30px;
+    border-radius: 18px;
+    background-color: rgba(117, 182, 32, 0.664);
+    line-height: 30px;
     text-align: center;
-    padding: 1%;
-    border-radius: 12px;
     color: white;
-    margin-top: 2%;
-}
-
-.spazio-vuoto{
-    width: 0px;
-    padding-top: 3%;
-    padding-top: 35px;
+    margin-bottom: 2%;
 }
