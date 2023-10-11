@@ -70,6 +70,18 @@ body{
     color: grey;
 }
 
+/*riquadro centrale*/
+#grosso-riquadro-centrale-bianco{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-top: 1px solid rgb(220, 220, 220);
+    border-radius: 0 0 5px 5px;
+}
+
 /* sezioni*/
 .font-sezioni-titoli{
     color: rgb(43, 43, 43);
